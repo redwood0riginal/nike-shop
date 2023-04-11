@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo"><img src="images/nike-128.png" alt="">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li>home</li>
+                    <li>shop</li>
+                    <li>explore</li>
+                    <li>about</li>
+                    <li>contact</li>  
+                    <div class="btn">
+                        <img src="images/sun.png" alt="">
+                        <img src="images/moon.png" alt="">
+                        <span></span>
+                    </div>
+                </ul>
+              
+            </div>
+        </div>
+        <div class="section">
+            <div class="sec-container">
+                <div class="right">
+                    <h1>elevate your style</h1>
+                    <h4>with vibrant nike</h4>
+                    <p>Unleash your creativity with our colurful <span>Nike</span> shoes. <br>
+                    Browse now and find your perfect pair!</p>
+                    <a href="#">shop now</a>
+                    <h6>and</h6>
+                    <p>find your next favorite pair of shoes</p>
+                </div>
+                <div class="left">
+                    <img src="images/[removal.ai]_tmp-63f227bebbddb.png" alt="">
+                </div>
+            </div>
+            <div class="sec-bottom">
+                <div class="image"><img src="images/sneakers.png" alt=""></div>
+                <p>whether you're looking for sneakers to wear during your workout or just to make a fashion statement. you can trust that our shoes will meet your needs.</p>
+                <h2>explore our <br><span>shoes</span></h2>
+            </div>
+        </div>
+    </div>
+    <script>
+        var toggleBtn = document.querySelector('.btn')
+        var body = document.querySelector('body')
+        toggleBtn.addEventListener('click', function(){
+            toggleBtn.classList.toggle('dark')
+            body.classList.toggle('dark')
+        })
+    </script>
+</body>
+</html>
